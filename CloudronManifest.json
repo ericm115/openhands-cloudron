@@ -3,7 +3,7 @@
     "title":  "OpenHands",
     "description":  "Open-source AI-driven development agent with a web control center.",
     "tagline":  "AI-driven development agents",
-    "version":  "1.16.1",
+    "version":  "1.16.2",
     "healthCheckPath":  "/",
     "httpPort":  8000,
     "addons":  {

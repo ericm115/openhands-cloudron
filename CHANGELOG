@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.16.2
+- Use the upstream image's available `runuser` utility when dropping privileges.
+
 ## 1.16.1
 - Run the application as the Cloudron user so `/app/data` is writable.
 
