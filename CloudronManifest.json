@@ -1,35 +1,29 @@
 {
-  "id": "io.openhands.agent-canvas",
-  "title": "OpenHands",
-  "author": "OpenHands",
-  "description": "Open-source AI-driven development agent with a web control center.",
-  "tagline": "AI-driven development agents",
-  "version": "1.16.0",
-  "upstreamVersion": "1.16.0",
-  "healthCheckPath": "/",
-  "httpPort": 8000,
-  "addons": {
-    "localstorage": {}
-  },
-  "memoryLimit": 4294967296,
-  "manifestVersion": 2,
-  "website": "https://openhands.dev",
-  "packageUrl": "https://github.com/ericm115/openhands-cloudron",
-  "documentationUrl": "https://docs.openhands.dev",
-  "forumUrl": "https://forum.cloudron.io/category/220/community-apps",
-  "contactEmail": "support@openhands.dev",
-  "tags": [
-    "development",
-    "ai",
-    "automation"
-  ],
-  "iconUrl": "https://assets.openhands.dev/logo-whitebackground.png",
-  "minBoxVersion": "9.1.0",
-  "packagerName": "Eric Morales",
-  "packagerUrl": "https://github.com/ericm115",
-  "changelog": "file://CHANGELOG",
-  "postInstallMessage": "file://POSTINSTALL.md",
-  "mediaLinks": [
-    "https://assets.openhands.dev/screenshot/automation-preview.png"
-  ]
+    "id":  "io.openhands.agent-canvas",
+    "title":  "OpenHands",
+    "description":  "Open-source AI-driven development agent with a web control center.",
+    "tagline":  "AI-driven development agents",
+    "version":  "1.16.0",
+    "healthCheckPath":  "/",
+    "httpPort":  8000,
+    "addons":  {
+                   "localstorage":  {
+
+                                    }
+               },
+    "manifestVersion":  2,
+    "website":  "https://openhands.dev",
+    "packageUrl":  "https://github.com/ericm115/openhands-cloudron",
+    "tags":  [
+                 "project",
+                 "hosting"
+             ],
+    "iconUrl":  "https://assets.openhands.dev/logo-whitebackground.png",
+    "minBoxVersion":  "10.0.0",
+    "packagerName":  "Eric Morales",
+    "packagerUrl":  "https://github.com/ericm115",
+    "changelog":  "file://CHANGELOG",
+    "mediaLinks":  [
+                       "https://assets.openhands.dev/screenshot/automation-preview.png"
+                   ]
 }
