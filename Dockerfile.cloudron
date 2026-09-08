@@ -1,0 +1,24 @@
+FROM ghcr.io/openhands/agent-canvas:1.16.0
+
+USER root
+
+ENV HOME=/home/openhands \
+    PORT=8000 \
+    AGENT_CANVAS_BASE_PATH=/canvas \
+    VITE_DO_NOT_TRACK=1 \
+    OH_PERSISTENCE_DIR=/app/data/openhands \
+    OH_CONVERSATIONS_PATH=/app/data/openhands/agent-canvas/conversations \
+    OH_BASH_EVENTS_DIR=/app/data/openhands/agent-canvas/bash_events \
+    AUTOMATION_WORKSPACE_BASE=/app/data/workspaces \
+    LOCAL_STORAGE_PATH=/app/data/storage
+
+RUN mkdir -p /app/data/openhands /app/data/workspaces /app/data/storage \
+    && rm -rf /home/openhands/.openhands \
+    && ln -s /app/data/openhands /home/openhands/.openhands \
+    && chown -R openhands:openhands /app/data
+
+COPY start.sh /app/pkg/start.sh
+RUN chmod +x /app/pkg/start.sh
+
+USER openhands
+ENTRYPOINT ["/usr/bin/tini", "--", "/app/pkg/start.sh"]

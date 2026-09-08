@@ -1,0 +1,34 @@
+{
+  "id": "io.openhands.agent-canvas",
+  "title": "OpenHands",
+  "author": "OpenHands",
+  "description": "Open-source AI-driven development agent with a web control center.",
+  "tagline": "AI-driven development agents",
+  "version": "1.16.0",
+  "upstreamVersion": "1.16.0",
+  "healthCheckPath": "/",
+  "httpPort": 8000,
+  "addons": {
+    "localstorage": {}
+  },
+  "memoryLimit": 4294967296,
+  "manifestVersion": 2,
+  "website": "https://openhands.dev",
+  "documentationUrl": "https://docs.openhands.dev",
+  "forumUrl": "https://forum.cloudron.io/category/220/community-apps",
+  "contactEmail": "support@openhands.dev",
+  "tags": [
+    "development",
+    "ai",
+    "automation"
+  ],
+  "iconUrl": "https://assets.openhands.dev/logo-whitebackground.png",
+  "minBoxVersion": "8.0.0",
+  "packagerName": "",
+  "packagerUrl": "",
+  "changelog": "file://CHANGELOG",
+  "postInstallMessage": "file://POSTINSTALL.md",
+  "mediaLinks": [
+    "https://example.com/screenshot.png"
+  ]
+}
