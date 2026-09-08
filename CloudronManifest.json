@@ -24,11 +24,11 @@
   ],
   "iconUrl": "https://assets.openhands.dev/logo-whitebackground.png",
   "minBoxVersion": "8.0.0",
-  "packagerName": "",
-  "packagerUrl": "",
+  "packagerName": "Eric Morales",
+  "packagerUrl": "https://github.com/ericm115",
   "changelog": "file://CHANGELOG",
   "postInstallMessage": "file://POSTINSTALL.md",
   "mediaLinks": [
-    "https://example.com/screenshot.png"
+    "https://assets.openhands.dev/screenshot/automation-preview.png"
   ]
 }
