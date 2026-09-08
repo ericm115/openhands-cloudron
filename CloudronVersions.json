@@ -1,13 +1,13 @@
 {
     "stable":  true,
     "versions":  {
-                     "1.16.0":  {
+                     "1.16.1":  {
                                     "manifest":  {
                                                      "id":  "io.openhands.agent-canvas",
                                                      "title":  "OpenHands",
                                                      "description":  "Open-source AI-driven development agent with a web control center.",
                                                      "tagline":  "AI-driven development agents",
-                                                     "version":  "1.16.0",
+                                                     "version":  "1.16.1",
                                                      "minBoxVersion":  "10.0.0",
                                                      "healthCheckPath":  "/",
                                                      "httpPort":  8000,
@@ -19,8 +19,8 @@
                                                      "manifestVersion":  2,
                                                      "website":  "https://openhands.dev",
                                                      "packageUrl":  "https://github.com/ericm115/openhands-cloudron",
-                                                     "packagerName":  "Eric Morales",
-                                                     "packagerUrl":  "https://github.com/ericm115",
+                                                     "packagerName":  "OpenHands Cloudron Community",
+                                                     "packagerUrl":  "https://github.com/ericm115/openhands-cloudron",
                                                      "iconUrl":  "https://assets.openhands.dev/logo-whitebackground.png",
                                                      "tags":  [
                                                                   "project",
@@ -30,10 +30,10 @@
                                                                         "https://assets.openhands.dev/screenshot/automation-preview.png"
                                                                     ],
                                                      "changelog":  "Initial Cloudron package.",
-                                                     "dockerImage":  "emoralesjw/openhands-cloudron:1.16.0"
+                                                     "dockerImage":  "emoralesjw/openhands-cloudron:1.16.1"
                                                  },
-                                    "creationDate":  "Tue, 08 Sep 2026 22:12:00 GMT",
-                                    "ts":  "Tue, 08 Sep 2026 22:12:00 GMT",
+                                    "creationDate":  "Tue, 08 Sep 2026 23:20:00 GMT",
+                                    "ts":  "Tue, 08 Sep 2026 23:20:00 GMT",
                                     "publishState":  "published"
                                 }
                  }

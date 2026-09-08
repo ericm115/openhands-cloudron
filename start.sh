@@ -6,5 +6,7 @@ mkdir -p /app/data/openhands/agent-canvas/conversations \
   /app/data/openhands/automation \
   /app/data/workspaces \
   /app/data/storage
+chown -R openhands:openhands /app/data
 
-exec /opt/agent-canvas/entrypoint.sh
+exec gosu openhands:openhands /opt/agent-canvas/entrypoint.sh
+

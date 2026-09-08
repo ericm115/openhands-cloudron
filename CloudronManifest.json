@@ -3,7 +3,7 @@
     "title":  "OpenHands",
     "description":  "Open-source AI-driven development agent with a web control center.",
     "tagline":  "AI-driven development agents",
-    "version":  "1.16.0",
+    "version":  "1.16.1",
     "healthCheckPath":  "/",
     "httpPort":  8000,
     "addons":  {
@@ -20,8 +20,8 @@
              ],
     "iconUrl":  "https://assets.openhands.dev/logo-whitebackground.png",
     "minBoxVersion":  "10.0.0",
-    "packagerName":  "Eric Morales",
-    "packagerUrl":  "https://github.com/ericm115",
+    "packagerName":  "OpenHands Cloudron Community",
+    "packagerUrl":  "https://github.com/ericm115/openhands-cloudron",
     "changelog":  "file://CHANGELOG",
     "mediaLinks":  [
                        "https://assets.openhands.dev/screenshot/automation-preview.png"

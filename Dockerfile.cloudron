@@ -20,5 +20,5 @@ RUN mkdir -p /app/data/openhands /app/data/workspaces /app/data/storage \
 COPY start.sh /app/pkg/start.sh
 RUN chmod +x /app/pkg/start.sh
 
-USER openhands
+USER root
 ENTRYPOINT ["/usr/bin/tini", "--", "/app/pkg/start.sh"]

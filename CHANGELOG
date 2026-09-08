@@ -1,4 +1,12 @@
 # Changelog
 
+## 1.16.1
+- Run the application as the Cloudron user so `/app/data` is writable.
+
 ## 1.16.0
 - Initial Cloudron package for OpenHands Agent Canvas.
+
+## Next release notes
+- Keep the packager display name generic; never add a personal full name.
+- Preserve the required `packageUrl`, `packagerUrl`, and Docker Hub image references.
+- Bump `version` in `CloudronManifest.json`, the version key in `CloudronVersions.json`, and the Docker image tag together.
