@@ -3,9 +3,10 @@
     "title":  "OpenHands",
     "description":  "Open-source AI-driven development agent with a web control center.",
     "tagline":  "AI-driven development agents",
-    "version":  "1.16.3",
+    "version":  "1.16.4",
     "healthCheckPath":  "/",
     "httpPort":  8000,
+    "memoryLimit":  4294967296,
     "addons":  {
                    "localstorage":  {
 

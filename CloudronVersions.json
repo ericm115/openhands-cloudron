@@ -1,16 +1,17 @@
 {
   "stable": true,
   "versions": {
-    "1.16.3": {
+    "1.16.4": {
       "manifest": {
         "id": "io.openhands.agent-canvas",
         "title": "OpenHands",
         "description": "Open-source AI-driven development agent with a web control center.",
         "tagline": "AI-driven development agents",
-        "version": "1.16.3",
+        "version": "1.16.4",
         "minBoxVersion": "10.0.0",
         "healthCheckPath": "/",
         "httpPort": 8000,
+        "memoryLimit": 4294967296,
         "addons": {
           "localstorage": {},
           "proxyAuth": {}
@@ -28,11 +29,11 @@
         "mediaLinks": [
           "https://assets.openhands.dev/screenshot/automation-preview.png"
         ],
-        "changelog": "Require Cloudron authentication before granting access to OpenHands.",
-        "dockerImage": "emoralesjw/openhands-cloudron:1.16.3"
+        "changelog": "Set the required memory limit to 4 GiB.",
+        "dockerImage": "emoralesjw/openhands-cloudron:1.16.4"
       },
-      "creationDate": "Tue, 08 Sep 2026 23:51:46 GMT",
-      "ts": "Tue, 08 Sep 2026 23:51:46 GMT",
+      "creationDate": "Wed, 09 Sep 2026 03:44:09 GMT",
+      "ts": "Wed, 09 Sep 2026 03:44:09 GMT",
       "publishState": "published"
     }
   }
