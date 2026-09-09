@@ -153,8 +153,7 @@
         "httpPort": 8000,
         "memoryLimit": 4294967296,
         "addons": {
-          "localstorage": {},
-          "proxyAuth": {}
+          "localstorage": {}
         },
         "manifestVersion": 2,
         "website": "https://openhands.dev",

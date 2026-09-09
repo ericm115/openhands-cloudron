@@ -10,10 +10,7 @@
     "addons":  {
                    "localstorage":  {
 
-                                    },
-                   "proxyAuth":  {
-
-                                }
+                                    }
                },
     "manifestVersion":  2,
     "website":  "https://openhands.dev",
